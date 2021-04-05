@@ -211,7 +211,7 @@
                       <div class="col-sm-12">
                         <label class="form-label-outside">Packages</label>
                         <div class="form-wrap form-wrap-inline">
-                          <select class="form-input select-filter" id="package" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
+                          <select class="form-input select-filter" id="package" onchange="locationDropdown()"  data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
                             <option value="1">Domestic</option>
                             <option value="2">International</option>
                           </select>
@@ -228,7 +228,7 @@
                       <div class="col-sm-12">
                         <label class="form-label-outside">To</label>
                         <div class="form-wrap form-wrap-inline">
-                          <select class="form-input select-filter" id="to" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
+                          <select class="form-input select-filter" id="location" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
                             <option></option>
                           </select>
                         </div>

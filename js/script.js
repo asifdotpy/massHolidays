@@ -2935,6 +2935,28 @@ var packages = {
 };
 
 
+function locationDropdown() {
+	var names = document.getElementById("package").value;
+	console.log(names);
+	if (names === "1") {
+		var array = ["Sikkim", "Cox's Bazar", "Sundarban", "Sajek"];
+	}
+	else if (names === "2") {
+		var array = ["India", "Bhutan", "Maldives", "Thailand"];
+	}
+	else {
+		var array = [];
+	}
+
+	var string = "";
+
+	for (var i=0; i<array.length; i++) {
+		string = string + "<option>"+ array[i]+"</option>";
+	}
+
+	string = "<select name=location>"+string+"</select>";
+	document.getElementById("location").innerHTML= string;
+}
 /*
 window.onload = function (){
 	$("#package").change(function () {
