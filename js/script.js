@@ -2927,3 +2927,31 @@ $document.ready(function () {
 		}
 	}
 });
+
+
+var packages = {
+	"Domestic": ["Sikkim", "Cox's Bazar", "Sundarban", "Sajek"],
+	"International": ["India", "Bhutan", "Maldives", "Thailand"]
+};
+
+
+/*
+window.onload = function (){
+	$("#package").change(function () {
+		var package = $(this);
+		if (package.val() === "Domestic") {
+			$("#to").append("<option>Sikkim</option>");
+			$("#to").append("<option>Cox's Bazar</option>");
+			$("#to").append("<option>Sundarban</option>");
+			$("#to").append("<option>Sajek</option>");
+		} else if (package.val() === "International") {
+			$("#to").append("<option>India</option>");
+			$("#to").append("<option>Bhutan</option>");
+			$("#to").append("<option>Maldives</option>");
+			$("#to").append("<option>Thailand</option>");
+		} 
+	});
+};
+*/
+
+

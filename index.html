@@ -106,7 +106,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo_163x46.png" alt="" width="163" height="46"/><img class="logo-inverse" src="images/logo-inverse-163x46.png" alt="" width="163" height="46"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo_163x46.png" alt="" width="163" height="46"/><img class="logo-inverse" src="images/logo_163x46.png" alt="" width="163" height="46"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <div class="rd-navbar-nav-wrap">
@@ -127,7 +127,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li><a href="#">Our Blog</a>
+                    <li><a href="#">Blog</a>
                       <!-- RD Navbar Dropdown-->
                       
                     </li>
@@ -209,22 +209,27 @@
                   <form class="rd-mailform form-fix">
                     <div class="row row-20 row-fix">
                       <div class="col-sm-12">
+                        <label class="form-label-outside">Packages</label>
+                        <div class="form-wrap form-wrap-inline">
+                          <select class="form-input select-filter" id="package" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
+                            <option value="1">Domestic</option>
+                            <option value="2">International</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
                         <label class="form-label-outside">From</label>
                         <div class="form-wrap form-wrap-inline">
                           <select class="form-input select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
-                            <option value="1">New York</option>
-                            <option value="2">Lisbon</option>
-                            <option value="3">Stockholm</option>
+                            <option value="1">Dhaka</option>
                           </select>
                         </div>
                       </div>
                       <div class="col-sm-12">
                         <label class="form-label-outside">To</label>
                         <div class="form-wrap form-wrap-inline">
-                          <select class="form-input select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
-                            <option value="1">Chicago</option>
-                            <option value="2">Madrid</option>
-                            <option value="3">Paris</option>
+                          <select class="form-input select-filter" id="to" data-placeholder="All" data-minimum-results-for-search="Infinity" name="city">
+                            <option></option>
                           </select>
                         </div>
                       </div>
@@ -252,17 +257,7 @@
                           </select>
                         </div>
                       </div>
-                      <div class="col-lg-6">
-                        <label class="form-label-outside">Adults</label>
-                        <div class="form-wrap form-wrap-modern">
-                          <input class="form-input input-append" id="form-element-stepper" type="number" min="0" max="300" value="2">
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label-outside">Children</label>
-                        <div class="form-wrap form-wrap-modern">
-                          <input class="form-input input-append" id="form-element-stepper-1" type="number" min="0" max="300" value="0">
-                        </div>
+                    
                       </div>
                     </div>
                     <div class="form-wrap form-button">
@@ -616,7 +611,7 @@
       <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
         <div class="container container-wide">
           <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
-            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="images/logo-inverse-163x46.png" alt="" width="163" height="46"/></a></div>
+            <!--<div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="images/logo.png" alt="" width="163" height="46"/></a></div>-->
             <div class="col-md-10 col-lg-7 col-xl-4">
               <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved&nbsp;<a href="#">Terms of Use</a>&nbsp;and&nbsp;<a href="privacy-policy.html">Privacy Policy</a></p>
             </div>
