@@ -2937,7 +2937,7 @@ var packages = {
 
 function locationDropdown() {
 	var names = document.getElementById("package").value;
-	console.log(names);
+	// value 1 is for domestic and 2 for international
 	if (names === "1") {
 		var array = ["Sikkim", "Cox's Bazar", "Sundarban", "Sajek"];
 	}
@@ -2957,23 +2957,5 @@ function locationDropdown() {
 	string = "<select name=location>"+string+"</select>";
 	document.getElementById("location").innerHTML= string;
 }
-/*
-window.onload = function (){
-	$("#package").change(function () {
-		var package = $(this);
-		if (package.val() === "Domestic") {
-			$("#to").append("<option>Sikkim</option>");
-			$("#to").append("<option>Cox's Bazar</option>");
-			$("#to").append("<option>Sundarban</option>");
-			$("#to").append("<option>Sajek</option>");
-		} else if (package.val() === "International") {
-			$("#to").append("<option>India</option>");
-			$("#to").append("<option>Bhutan</option>");
-			$("#to").append("<option>Maldives</option>");
-			$("#to").append("<option>Thailand</option>");
-		} 
-	});
-};
-*/
 
 
