@@ -3217,7 +3217,6 @@ section {
 
 .bg-gray-700 .box-cta .button-secondary, .bg-gray-700 .box-cta .button-secondary:focus {
 	color: #ffffff;
-	background-color: transparent;
 	border-color: #ededed;
 }
 
