@@ -19818,6 +19818,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 */
 .rd-navbar-static {
 	display: block;
+	background: #d8eced;
 }
 
 .rd-navbar-static .rd-navbar-inner {
@@ -19919,6 +19920,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 
 .rd-navbar-static.rd-navbar--is-stuck, .rd-navbar-static.rd-navbar--is-clone {
 	will-change: transform;
+	background: #d8eced;
 }
 
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav > li > a, .rd-navbar-static.rd-navbar--is-clone .rd-navbar-nav > li > a {
@@ -20046,7 +20048,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	bottom: 0;
 	right: 0;
 	box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.25);
-	background: #ffffff;
+	background: #d8eced;
 }
 
 .rd-navbar-fixed .rd-navbar-panel > * {
