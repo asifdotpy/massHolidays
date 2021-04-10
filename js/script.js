@@ -2959,3 +2959,15 @@ function locationDropdown() {
 }
 
 
+function dropdown() {
+	var navPackage = document.getElementsByClassName("rd-navbar--has-dropdown");
+	if (navPackage[0].classList.contains("opened")) {
+		navPackage[0].className = "rd-navbar--has-dropdown rd-navbar-submenu";
+	}
+	else {
+		navPackage[0].classList.add("opened");
+	}
+
+}
+
+
