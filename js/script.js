@@ -2939,7 +2939,8 @@ function locationDropdown() {
 	var names = document.getElementById("package").value;
 	// value 1 is for domestic and 2 for international
 	if (names === "1") {
-		var array = ["Sikkim", "Cox's Bazar", "Sundarban", "Sajek"];
+		var array = ["Bandarban", "Chandpur", "Saint Martin",
+					 "Sajek", "Sitakunda", "Sreemangal", "Sunderban"];
 	}
 	else if (names === "2") {
 		var array = ["India", "Bhutan", "Maldives", "Thailand"];
