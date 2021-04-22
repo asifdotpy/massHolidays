@@ -2945,6 +2945,9 @@ function locationDropdown() {
 	else if (names === "2") {
 		var array = ["India", "Bhutan", "Maldives", "Thailand"];
 	}
+	else if (names === "3") {
+		var array = ["Nondon", "Dream Land"];
+	}
 	else {
 		var array = [];
 	}

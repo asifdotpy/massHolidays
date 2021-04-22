@@ -23600,9 +23600,9 @@ html.tablet .ui-to-top {
 	.swiper-form-wrap .form-request-wrap {
 		width: 100%;
 		position: absolute;
-		top: 50%;
+		top: 43%;
 		transform: translate3d(0, -50%, 0);
-		left: 0;
+		left: 1;
 		right: 0;
 		z-index: 2;
 		pointer-events: none;
